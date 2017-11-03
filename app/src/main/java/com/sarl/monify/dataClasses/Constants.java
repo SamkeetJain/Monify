@@ -1,4 +1,4 @@
-package com.sarl.monify;
+package com.sarl.monify.dataClasses;
 
 /**
  * Created by knightshade on 11/2/17.

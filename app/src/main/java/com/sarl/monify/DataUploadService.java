@@ -11,6 +11,10 @@ import android.provider.Telephony;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
+import com.sarl.monify.dataClasses.CallRecord;
+import com.sarl.monify.dataClasses.Contact;
+import com.sarl.monify.dataClasses.Sms;
+
 import java.util.ArrayList;
 
 /**

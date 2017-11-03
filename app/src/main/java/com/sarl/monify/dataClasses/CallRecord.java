@@ -1,4 +1,4 @@
-package com.sarl.monify;
+package com.sarl.monify.dataClasses;
 
 import org.json.JSONException;
 import org.json.JSONObject;
