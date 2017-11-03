@@ -8,12 +8,24 @@ import org.json.JSONObject;
  */
 
 public class Sms {
-    private String number, message, timestamp;
+    private String number;
+    private String message;
+    private String timestamp;
+    private String type;
 
-    public Sms(String number, String message, String timestamp){
+    public Sms(String number, String message, String timestamp, String type) {
         this.number = number;
         this.message = message;
         this.timestamp = timestamp;
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getNumber() {
