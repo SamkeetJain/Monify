@@ -28,6 +28,9 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
 
+    //For making internet request
+    compile 'com.google.code.gson:gson:2.8.2'
+    compile 'com.amitshekhar.android:android-networking:1.0.0'
 
     // Support libraries
     compile "com.android.support:design:25.3.1"
